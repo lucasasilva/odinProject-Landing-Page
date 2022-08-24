@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/images/pokemon-tipo-eletrco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+img{
+    width: 100px;
+    height: 90px;
+}
+.img-container{
+    display: flex;
+}
+.gym-leaders-img img{
+    width: 120px;
+    height: 180px;
+}
+/* ------------------------------------------ */
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1-container,
+.section2-container,
+.section3-container{
+   display: flex; 
+   justify-content: space-around;
+}
+.curiosities-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 200px;
+}
